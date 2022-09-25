@@ -1,0 +1,60 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x984140643329B93AB14377f1CA14D831d8FFFBD4",
+    "txHash": "0x2f0e85638e2d59464f5e915515a32558825655436b96c38dd3569cab16a68e72"
+  },
+  "proxies": [
+    {
+      "address": "0x703227a293c373603615002F9dC165102EB83080",
+      "txHash": "0xc9fed509259f4dd382a5b1e760acc086d41d6fe08ae25165597b188308edf5b6",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "cf47c77e059761465f040ea13180545c60aef9c236365c09a952b7d707b79f78": {
+      "address": "0x524ce50e7F947063BfB95754c98AF9202D6e5e9C",
+      "txHash": "0x7ea4b9665201c40d68026446738cd6846cd40ace4f5b6e4ccbcf7a0645d70457",
+      "layout": {
+        "storage": [
+          {
+            "label": "a",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Testone",
+            "src": "contracts\\Mytest.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "6e576af993fbf4e6d96c46a23edf643ccd8b424e326413f5a8f4fad2bf5088b8": {
+      "address": "0x24374A3C2d327d700dbb5EaeeA0f5Ef20C7fEf8D",
+      "txHash": "0x7e472dc5c21e4295c46bfdd3fbc7e4d1b0e20131801b6da4ba17241277c29279",
+      "layout": {
+        "storage": [
+          {
+            "label": "a",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Testtwo",
+            "src": "contracts\\Mytesttwo.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
